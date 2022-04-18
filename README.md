@@ -1,16 +1,24 @@
-### Hi there 👋
+```ts
+//  👋
 
-<!--
-**daryanka/daryanka** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+const Portfolio = "https://daryanamin.co.uk";
+const LinkedIn = "https://www.linkedin.com/in/daryan-amin-06ab77221";
 
-Here are some ideas to get you started:
+const Daryan: Person = {
+  pronouns: ["He", "Him"],
+  langauges: {
+    Frontend: ["Javascript", "Typescript", "React.js", "HTML", "CSS", "SCSS"],
+    Backend: ["Node.js", "GO"]
+  },
+  db: ["MongoDB", "SQL", "MySQL", "Redis"],
+  contactMe: () => {
+    console.log(`Contact me via LinkedIn: ${LinkedIn}`);
+  },
+  about: {
+    enjoys: "Solving challenging tasks, reading about new technologies.",
+    dislikes: "naming variables...",
+    currentlyLearning: ["C++"]
+  }
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
